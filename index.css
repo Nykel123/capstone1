@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+#web_dev {
+	font-family: 'Tektur', cursive;
+}
+
+#me_me {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 25px;
+}
+
+#nav_bg {
+	background-color: #CC8B86;
+}
+
+
+#about_me {
+	background-color: #F9EAE1;
+}
+
+/*#girl {
+	border-radius: 50%;
+	/*width: 500px;
+	height: 300px;*/
+}*/
