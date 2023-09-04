@@ -74,7 +74,6 @@ hr {
 /*Project*/
 
 #project {
-	border: 2px solid black;
 	height: 100vh;
 }
 
@@ -89,7 +88,6 @@ hr {
 
 
 .proj_child1 {
-	border: 2px solid black;
 	height: 100%;
 }
 
@@ -98,6 +96,7 @@ hr {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 70px;
 	color: #C26D2D;
+	border-bottom: 2px solid black;
 
 	writing-mode: vertical-lr;
 	rotate: 180deg;
@@ -115,3 +114,6 @@ hr {
 	font-family: 'Klee One', cursive !important;
 }
 
+.image {
+	border-radius: 30px 30px 30px 30px;
+}
