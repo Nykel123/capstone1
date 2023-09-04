@@ -86,8 +86,19 @@ footer {
 	color: #C26D2D;
 }
 
+
+.hr1 {
+	border-top: 3px dotted;
+}
+
+
 #get_in {
 	color: #C26D2D;
+}
+
+#contact {
+	background-color: whitesmoke;
+	width: 800px;
 }
 
 .contact-form {
