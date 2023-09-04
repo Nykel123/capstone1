@@ -1,28 +1,117 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
 
 
-#web_dev {
-	font-family: 'Tektur', cursive;
+
+#landing {
+	height: 100vh;
 }
+
+.navbar {
+	color: #C26D2D;
+}
+
+.home_1 {
+	font-family: 'Pacifico', cursive;;
+	color: #C26D2D !important; 
+	border-style: dotted;
+	border-color: whitesmoke;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+#web_dev, #email_me{
+	font-family: 'Tektur', cursive;
+	color: #C26D2D;
+}
+
 
 #me_me {
 	font-family: 'Architects Daughter', cursive;
-	font-size: 25px;
-}
-
-#nav_bg {
-	background-color: #CC8B86;
+	
 }
 
 
-#about_me {
-	background-color: #F9EAE1;
+.uil {
+	color: #C26D2D;
+	font-size: 30px;
 }
 
-/*#girl {
-	border-radius: 50%;
-	/*width: 500px;
-	height: 300px;*/
-}*/
+
+
+/*Background*/
+#landing {
+	background-color: #F6E5D9;
+}
+
+hr {
+	background-color: #D1966A;
+}
+
+
+#dotted {
+	border-style: dotted; 
+	border-color: #D1966A;
+}
+
+
+/*Images*/
+
+#girl {
+	border-radius: 150px 150px 0px 0px;
+	box-shadow: 15px 15px 5px whitesmoke;
+}
+
+/*Project*/
+
+#project {
+	border: 2px solid black;
+	height: 100vh;
+}
+
+
+
+#proj_parent {
+	justify-content: flex-end;
+	height: 100%;
+	position: relative;
+}
+
+
+
+.proj_child1 {
+	border: 2px solid black;
+	height: 100%;
+}
+
+
+.proj_head {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 70px;
+	color: #C26D2D;
+
+	writing-mode: vertical-lr;
+	rotate: 180deg;
+	height: 100%;
+	text-align: center;
+}
+
+.proj_child2 {
+	font-family: 'Shadows Into Light', cursive;
+	color: #C26D2D;
+	height: 100%;
+}
+
+.deets {
+	font-family: 'Klee One', cursive !important;
+}
+
