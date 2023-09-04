@@ -13,9 +13,14 @@
 	/*height: 100vh;*/
 }
 
-.navbar {
+#nav_bg {
 	color: #C26D2D;
+ 	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	padding-right: 100px;
 }
+
 
 .home_1 {
 	font-family: 'Pacifico', cursive;;
@@ -96,8 +101,8 @@ footer {
 	color: #C26D2D;
 }
 
-#contact {
-	background-color: whitesmoke;
+form {
+	border: 5px solid white;
 }
 
 .contact-form {
