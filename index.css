@@ -1,4 +1,6 @@
-
+*{
+	font-family: 'Tektur', cursive;
+}
 @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -8,7 +10,7 @@
 
 
 #landing {
-	height: 100vh;
+	/*height: 100vh;*/
 }
 
 .navbar {
@@ -22,11 +24,6 @@
 	border-color: whitesmoke;
 	border-radius: 20px;
 }
-
-
-
-
-
 
 
 #web_dev, #email_me{
@@ -71,49 +68,53 @@ hr {
 	box-shadow: 15px 15px 5px whitesmoke;
 }
 
-/*Project*/
 
-#project {
-	height: 100vh;
-}
-
-
-
-#proj_parent {
-	justify-content: flex-end;
-	height: 100%;
-	position: relative;
-}
-
-
-
-.proj_child1 {
-	height: 100%;
-}
-
-
-.proj_head {
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 70px;
+footer {
+	background-color: #DFB88E;
 	color: #C26D2D;
-	border-bottom: 2px solid black;
-
-	writing-mode: vertical-lr;
-	rotate: 180deg;
-	height: 100%;
-	text-align: center;
 }
 
-.proj_child2 {
-	font-family: 'Shadows Into Light', cursive;
+#tools {
+	background-color: #F6E5D9;
+}
+
+#core_tools {
 	color: #C26D2D;
-	height: 100%;
 }
 
-.deets {
-	font-family: 'Klee One', cursive !important;
+#other_tool {
+	color: #C26D2D;
 }
 
-.image {
-	border-radius: 30px 30px 30px 30px;
+#get_in {
+	color: #C26D2D;
 }
+
+.contact-form {
+	color: #C26D2D;
+}
+
+.contact_me {
+	border-radius: 10px
+}
+
+
+#projects {
+	color: #C26D2D;
+}
+
+.project1{
+	color: #C26D2D;
+}
+
+.project2{
+	color: #C26D2D;
+}
+
+#p1 {
+	border-radius: 20px 20px 20px 20px;
+	width: 500x;
+	height: 600px;
+
+}
+
